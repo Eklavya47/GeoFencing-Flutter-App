@@ -1,17 +1,13 @@
-# 📱 Location-Aware Safety App
-A comprehensive Flutter-based mobile application focused on safety and location tracking. This app provides features like user authentication, real-time location tracking, geofencing, and map integration for enhanced safety monitoring.
+# 📍 GeoFence Flutter App
+A location-based app built using Flutter with Firebase Authentication for secure login. The app allows users to fetch their current coordinates, set a custom geofence radius, and receive notifications when they step outside the defined boundary. It also integrates a map view to visualize the user’s location and geofence in real-time.
 
 # ✨ Features
 - 🔐 **User Authentication** – Secure login and signup functionality
 - 📍 **Real-time Location Tracking** – Monitor current location
 - 🗺️ **Maps Integration** – Visual location tracking with Google Maps
-- 🎯 **Geofencing** – Set up and monitor geographic boundaries
-- 🔔 **Location Alerts** – Get notifications for specific locations
-- 🔑 **Password Recovery** – Built-in forgot password functionality
+- 🛡️ **Geofencing** – Create a custom-radius geo-fence around your current location.
+- 🔔 **Alert on Exit** – Receive an alert when you step outside the geofence boundary.
 - 📱 **Cross-Platform** – Works on both Android and iOS
-
-# 📸 Screenshots
-[Add your application screenshots here]
 
 # ⚙️ Tech Stack
 - **Framework**: Flutter
@@ -37,15 +33,16 @@ A comprehensive Flutter-based mobile application focused on safety and location 
 # 🚀 Getting Started
 Follow these steps to run the project locally:
 1. Clone the repository
-2. Ensure Flutter is installed on your system
-3. Run `flutter pub get` to install dependencies
-4. Configure your Firebase project and add necessary API keys
-5. Run the app using `flutter run`
+2. Open the project in VS Code or Android Studio
+3. Ensure Flutter is installed on your system
+4. Run `flutter pub get` to install dependencies
+5. Configure your Firebase project and add necessary API keys
+6. Run the app using `flutter run`
 
 # 🔧 Requirements
-- Flutter SDK
+- Flutter SDK (Latest version)
 - Dart SDK
-- Android Studio / VS Code
+- Android Studio / VS Code with Flutter and Dart plugins
 - Firebase project setup
 - Google Maps API key
 - Minimum SDK: Android 21, iOS 11
